@@ -23,8 +23,6 @@ BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
 BuildRequires:	python-setuptools
-%endif
-%if %{with python3}
 %if %{with tests}
 BuildRequires:	python-cookies
 BuildRequires:	python-coverage >= 3.7.1
